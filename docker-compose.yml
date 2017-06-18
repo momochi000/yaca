@@ -6,4 +6,15 @@ services:
       - .:/myapp
     ports:
       - "3000:3000"
-    command: sh -c
+    depends_on:
+      - db
+    command: ./bin/rails s -b 0.0.0.0
+
+  db:
+    image: postgres
+
+  spring:
+    build: .
+    volumes:
+      - .:/myapp
+    command: ./bin/spring server
