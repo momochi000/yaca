@@ -8,14 +8,13 @@ ruby '2.4.1'
 
 source 'https://rubygems.org' do
   gem 'rails', '5.1.1'
-  gem 'foreigner'
   gem 'haml'
   #gem 'jbuilder', '~> 2.5'
   gem 'pg'
   gem 'puma', '~> 3.7'
   gem 'sass-rails', '~> 5.0'
   #gem 'turbolinks', '~> 5'
-  gem 'webpack-rails'
+  gem 'webpacker', '~> 2.0' 
 
   group :development do
     gem 'pry'
