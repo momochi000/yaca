@@ -13,8 +13,19 @@ services:
   db:
     image: postgres
 
+  webpack-dev:
+    build: .
+    environment:
+      - NODE_ENV=development
+    ports: 
+      - "8080:8080"
+    volumes:
+      - .:/myapp
+    command: ./bin/webpack-dev-server --host 0.0.0.0 --port 8080 --public localhost:8080
+
   spring:
     build: .
     volumes:
       - .:/myapp
     command: ./bin/spring server
+    #pid: host
