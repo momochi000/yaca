@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: .
+    volumes:
+      - .:/myapp
+    ports:
+      - "3000:3000"
+    command: sh -c
