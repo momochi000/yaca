@@ -25,6 +25,7 @@
    CLOSED: [2017-06-19 Mon 21:06]
 ** DONE Create user model
    CLOSED: [2017-06-19 Mon 21:10]
-** TODO Add bootstrap (on webpack side)
+** DONE Add bootstrap (on webpack side)
+   CLOSED: [2017-06-20 Tue 15:59]
 ** TODO Scaffold checklist
 ** TODO Scaffold checklist items per checklist

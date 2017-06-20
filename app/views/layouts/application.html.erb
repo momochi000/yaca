@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Yaca</title>
+    <title>YACA - Yet Another Checklist App</title>
     <%= csrf_meta_tags %>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
     <%-#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%-#= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag "application" %>
+    <%= stylesheet_pack_tag "yaca-app" %>
     <%= yield :javascript_packs %>
   </head>
 
@@ -15,7 +17,10 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-    <%= yield %>
+    
+    <div class="container">
+      <%= yield %>
+    </div>
     <%= yield :javascripts %>
   </body>
 </html>

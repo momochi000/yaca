@@ -8,3 +8,7 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+console.log("DEBUG: HELLOOOOO is this working?");
+require("expose-loader?$!expose-loader?jQuery!jquery");
+require("expose-loader?_!lodash");     
+require('bootstrap-loader');
