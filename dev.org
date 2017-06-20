@@ -1,0 +1,27 @@
+* Inception
+** Roles
+*** Logged out user
+*** Logged in user
+*** Admin
+** Stories
+*** Logged out user can sign up
+*** Looged out user can sign in
+*** Logged in user can sign out
+*** User can see list of checklists
+*** User can create checklist
+*** User can edit checklist
+*** User can delete checklist
+*** User can spawn new checklist
+*** User can check checklist item
+*** User can uncheck checklist item
+*** Completing all checklist items on a checklist will complete the checklist
+*** User can see stats on completed checklist items
+*** User can attach icon to checklist item
+*** User can attach icon to checklist
+*** User can attach image to checklist
+*** User can attach image to checklist item
+* Roadmap
+** TODO Install devise
+** TODO Create user model
+** TODO Scaffold checklist
+** TODO Scaffold checklist items per checklist
