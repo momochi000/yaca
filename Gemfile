@@ -7,6 +7,7 @@ ruby '2.4.1'
 #end
 
 source 'https://rubygems.org' do
+  gem 'devise'
   gem 'rails', '5.1.1'
   gem 'haml'
   #gem 'jbuilder', '~> 2.5'
