@@ -1,0 +1,27 @@
+<%= form_with(model: checklist_item, local: true) do |form| %>
+  <% if checklist_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(checklist_item.errors.count, "error") %> prohibited this checklist_item from being saved:</h2>
+
+      <ul>
+      <% checklist_item.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.text_field :content, id: :checklist_item_content %>
+  </div>
+
+  <div class="field">
+    <%= form.label :is_checked %>
+    <%= form.check_box :is_checked, id: :checklist_item_is_checked %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
