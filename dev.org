@@ -21,7 +21,9 @@
 *** User can attach image to checklist
 *** User can attach image to checklist item
 * Roadmap
-** TODO Install devise
+** DONE Install devise
+   CLOSED: [2017-06-19 Mon 21:06]
 ** TODO Create user model
+** TODO Add bootstrap (on webpack side)
 ** TODO Scaffold checklist
 ** TODO Scaffold checklist items per checklist
