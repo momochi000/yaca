@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# What this app does
+Create checklists which can be repeated and checked off multiple times.
+Useful for repeating tasks 
+Will keep track of completion stats automatically
+Can view lists in easy-to-print format
+Some example use cases:
+* Pre-flight checklist for your plane
+* Checklist to make sure you have all your things before leaving the house
+* TCLOCS checklist to check your motorcycle before riding
 
-Things you may want to cover:
+# For developers:
+## To get the app running in development
+Requirements; Docker and docker-compose
+Just a simple docker-compose build and docker-compose up should get you up and running
+create a database.yml and then do
+docker-compose run --rm web bundle exec rake db:create
+docker-compose run --rm web bundle exec rake db:migrate
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technology stack:
+* Rails
+* Webpack via webpacker
+* React
+* Redux
+* Material-ui
