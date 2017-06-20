@@ -27,5 +27,6 @@
    CLOSED: [2017-06-19 Mon 21:10]
 ** DONE Add bootstrap (on webpack side)
    CLOSED: [2017-06-20 Tue 15:59]
-** TODO Scaffold checklist
+** DONE Scaffold checklist
+   CLOSED: [2017-06-20 Tue 16:08]
 ** TODO Scaffold checklist items per checklist
