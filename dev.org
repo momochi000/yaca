@@ -23,7 +23,8 @@
 * Roadmap
 ** DONE Install devise
    CLOSED: [2017-06-19 Mon 21:06]
-** TODO Create user model
+** DONE Create user model
+   CLOSED: [2017-06-19 Mon 21:10]
 ** TODO Add bootstrap (on webpack side)
 ** TODO Scaffold checklist
 ** TODO Scaffold checklist items per checklist
