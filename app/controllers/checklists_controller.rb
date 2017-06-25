@@ -1,9 +1,10 @@
 class ChecklistsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_checklist, only: [:show, :edit, :update, :destroy]
 
   # GET /checklists
   def index
-    @checklists = Checklist.all
+    @checklists = current_user.checklists
   end
 
   # GET /checklists/1
@@ -12,7 +13,7 @@ class ChecklistsController < ApplicationController
 
   # GET /checklists/new
   def new
-    @checklist = Checklist.new
+    @checklist = current_user.checklists.new  #Checklist.new
   end
 
   # GET /checklists/1/edit
