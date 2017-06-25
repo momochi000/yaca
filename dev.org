@@ -21,9 +21,23 @@
 *** User can attach image to checklist
 *** User can attach image to checklist item
 * Roadmap
-** TODO User logs in and is taken to checklist index page
-** TODO User can create a checklist from index page
+** TODO Build the app in pure rails first
+*** TODO User can create a checklist from index page
+*** User can view a checklist
+    Viewing checklist shows all it's items in a form
+*** Completing the form is rejected 
+    if all items are not checked
+*** User can complete the form
+    allowed only if all items are checked
+*** When user completes the form, the completion is recorded
+*** When user views a checklist again, a new fresh form is generated
+    No items are checked
+** TODO Install react/redux/immutable/material-js
+** TODO Setup react app at checklist index
+   Just get hello world react working
 * Completed
+** DONE User logs in and is taken to checklist index page
+   CLOSED: [2017-06-24 Sat 19:21]
 ** DONE Attach checklist items to checklist
    CLOSED: [2017-06-24 Sat 19:10]
 ** DONE Attach checklist to user
