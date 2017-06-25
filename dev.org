@@ -21,12 +21,15 @@
 *** User can attach image to checklist
 *** User can attach image to checklist item
 * Roadmap
-** TODO Build sign in/sign up page
-** TODO Attach checklist to user
-** TODO Attach checklist items to checklist
 ** TODO User logs in and is taken to checklist index page
 ** TODO User can create a checklist from index page
 * Completed
+** DONE Attach checklist items to checklist
+   CLOSED: [2017-06-24 Sat 19:10]
+** DONE Attach checklist to user
+   CLOSED: [2017-06-24 Sat 19:07]
+** DONE Build sign in/sign up page
+   CLOSED: [2017-06-24 Sat 18:58]
 ** DONE Install devise
    CLOSED: [2017-06-19 Mon 21:06]
 ** DONE Create user model
