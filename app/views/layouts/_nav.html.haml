@@ -1,0 +1,11 @@
+%nav.navbar.navbar-light.bg-faded
+  %button.navbar-toggler.navbar-toggler-right{:type => 'button', :data => {:toggle => 'collapse', :target => '#navbar-toggle-yaca'}}
+    %span.navbar-toggler-icon
+  = link_to "YACA", '#', :class => 'navbar-brand'
+
+  #navbar-toggle-yaca.collapse.navbar-collapse
+    %ul.navbar-nav.mr-auto
+      %li.nav-item.active
+        = link_to 'Home', '#'
+      %li.nav-item
+        = render 'layouts/navbar/sign_in'

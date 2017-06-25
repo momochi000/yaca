@@ -3,7 +3,7 @@
   <head>
     <title>YACA - Yet Another Checklist App</title>
     <%= csrf_meta_tags %>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%-#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -14,11 +14,10 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-
+    <%= render 'layouts/flash' %>
+    <%= render 'layouts/nav' %>
     
-    <div class="container">
+    <div class="container-fluid">
       <%= yield %>
     </div>
     <%= yield :javascripts %>
