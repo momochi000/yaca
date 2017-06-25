@@ -11,4 +11,6 @@ console.log('Hello World from Webpacker')
 console.log("DEBUG: HELLOOOOO is this working?");
 require("expose-loader?$!expose-loader?jQuery!jquery");
 require("expose-loader?_!lodash");     
-require('bootstrap-loader');
+require("bootstrap-loader");
+require("jquery-ujs");
+require("rails-ujs");
