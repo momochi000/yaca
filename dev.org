@@ -23,14 +23,17 @@
 * Roadmap
 ** TODO Build the app in pure rails first
 *** TODO User can create a checklist from index page
-*** User can view a checklist
+*** TODO Remove is_checked from checklist item
+    These don't matter since the state of an individual checklist item doesn't 
+    matter.
+*** TODO User can view a checklist
     Viewing checklist shows all it's items in a form
-*** Completing the form is rejected 
+*** TODO Completing the form is rejected 
     if all items are not checked
-*** User can complete the form
+*** TODO User can complete the form
     allowed only if all items are checked
-*** When user completes the form, the completion is recorded
-*** When user views a checklist again, a new fresh form is generated
+*** TODO When user completes the form, the completion is recorded
+*** TODO When user views a checklist again, a new fresh form is generated
     No items are checked
 ** TODO Install react/redux/immutable/material-js
 ** TODO Setup react app at checklist index

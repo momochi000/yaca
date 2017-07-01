@@ -92,6 +92,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.2)
     multi_json (1.12.1)
+    nested_form (0.3.2)
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
@@ -206,6 +207,7 @@ DEPENDENCIES
   factory_girl_rails!
   faker!
   haml!
+  nested_form!
   pg!
   pry!
   puma (~> 3.7)!
